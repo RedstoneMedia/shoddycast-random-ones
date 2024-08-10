@@ -29,7 +29,7 @@ __attribute__((always_inline)) uint32_t uniform_random(uint32_t min_value, uint3
 uint32_t simulate_round() {
     uint32_t n_ones = 0;
     for (int i = 0; i < STEPS_PER_ROUND; ++i) {
-        n_ones += !uniform_random(0, 3); // Check for "One" (in this case 0)
+        n_ones += !uniform_random(0, 3); // Branch less check for "One" (in this case 0)
     }
     return n_ones;
 }
