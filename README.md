@@ -1,3 +1,3 @@
 # RandomOnes
 
-This is a blazingly fast 🚀🚀🚀💨💨.
+This is blazingly fast 🚀🚀🚀💨💨.
